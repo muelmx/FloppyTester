@@ -1,0 +1,369 @@
+{
+    "sequencearray": [
+        {
+            "NumberOfTracks": 80,
+            "Test": true,
+            "TestId": 1,
+            "TestName": "Sequence1",
+            "loop": false,
+            "sequences": [
+                {
+                    "StepNumber": 25,
+                    "dir": "IN",
+                    "high": 100,
+                    "low": 100,
+                    "motorOn": false
+                },
+                {
+                    "StepNumber": 25,
+                    "dir": "IN",
+                    "high": 50,
+                    "low": 100,
+                    "motorOn": true
+                }
+            ]
+        },
+        {
+            "NumberOfTracks": 80,
+            "Test": false,
+            "TestId": 2,
+            "TestName": "Sequence2",
+            "loop": false,
+            "sequences": [
+                {
+                    "StepNumber": 75,
+                    "dir": "AUTO",
+                    "high": 20,
+                    "low": 20,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 3000,
+                    "dir": "AUTO",
+                    "high": 0,
+                    "low": 1,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 28,
+                    "dir": "AUTO",
+                    "high": 27,
+                    "low": 27,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 1500,
+                    "dir": "AUTO",
+                    "high": 0,
+                    "low": 1,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 29,
+                    "dir": "AUTO",
+                    "high": 26,
+                    "low": 26,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 1500,
+                    "dir": "AUTO",
+                    "high": 0,
+                    "low": 1,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 33,
+                    "dir": "AUTO",
+                    "high": 23,
+                    "low": 23,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 1500,
+                    "dir": "AUTO",
+                    "high": 0,
+                    "low": 1,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 19,
+                    "dir": "AUTO",
+                    "high": 20,
+                    "low": 20,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 750,
+                    "dir": "AUTO",
+                    "high": 0,
+                    "low": 1,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 16,
+                    "dir": "AUTO",
+                    "high": 23,
+                    "low": 23,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 750,
+                    "dir": "AUTO",
+                    "high": 0,
+                    "low": 1,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 29,
+                    "dir": "AUTO",
+                    "high": 26,
+                    "low": 26,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 1500,
+                    "dir": "AUTO",
+                    "high": 0,
+                    "low": 1,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 28,
+                    "dir": "AUTO",
+                    "high": 27,
+                    "low": 27,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 1500,
+                    "dir": "AUTO",
+                    "high": 0,
+                    "low": 1,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 50,
+                    "dir": "AUTO",
+                    "high": 30,
+                    "low": 30,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 3000,
+                    "dir": "AUTO",
+                    "high": 0,
+                    "low": 1,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 25,
+                    "dir": "AUTO",
+                    "high": 30,
+                    "low": 30,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 1500,
+                    "dir": "AUTO",
+                    "high": 0,
+                    "low": 1,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 29,
+                    "dir": "AUTO",
+                    "high": 26,
+                    "low": 26,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 1500,
+                    "dir": "AUTO",
+                    "high": 0,
+                    "low": 1,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 75,
+                    "dir": "AUTO",
+                    "high": 20,
+                    "low": 20,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 3000,
+                    "dir": "AUTO",
+                    "high": 0,
+                    "low": 1,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 33,
+                    "dir": "AUTO",
+                    "high": 23,
+                    "low": 23,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 1500,
+                    "dir": "AUTO",
+                    "high": 0,
+                    "low": 1,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 29,
+                    "dir": "AUTO",
+                    "high": 26,
+                    "low": 26,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 1500,
+                    "dir": "AUTO",
+                    "high": 0,
+                    "low": 1,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 83,
+                    "dir": "AUTO",
+                    "high": 27,
+                    "low": 27,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 4500,
+                    "dir": "AUTO",
+                    "high": 0,
+                    "low": 1,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 29,
+                    "dir": "AUTO",
+                    "high": 26,
+                    "low": 26,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 1500,
+                    "dir": "AUTO",
+                    "high": 0,
+                    "low": 1,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 65,
+                    "dir": "AUTO",
+                    "high": 23,
+                    "low": 23,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 3000,
+                    "dir": "AUTO",
+                    "high": 0,
+                    "low": 1,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 75,
+                    "dir": "AUTO",
+                    "high": 20,
+                    "low": 20,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 3000,
+                    "dir": "AUTO",
+                    "high": 0,
+                    "low": 1,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 58,
+                    "dir": "AUTO",
+                    "high": 26,
+                    "low": 26,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 3000,
+                    "dir": "AUTO",
+                    "high": 0,
+                    "low": 1,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 50,
+                    "dir": "AUTO",
+                    "high": 30,
+                    "low": 30,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 3000,
+                    "dir": "AUTO",
+                    "high": 0,
+                    "low": 1,
+                    "motorOn": 0
+                },
+                {
+                    "StepNumber": 100,
+                    "dir": "AUTO",
+                    "high": 30,
+                    "low": 30,
+                    "motorOn": 0
+                }
+            ]
+        },
+        {
+            "NumberOfTracks": 80,
+            "Test": true,
+            "TestId": 3,
+            "TestName": "Sequence3",
+            "loop": false,
+            "sequences": [
+                {
+                    "StepNumber": 45,
+                    "dir": "IN",
+                    "high": 100,
+                    "low": 100,
+                    "motorOn": true
+                },
+                {
+                    "StepNumber": 46,
+                    "dir": "OUT",
+                    "high": 50,
+                    "low": 100,
+                    "motorOn": false
+                }
+            ]
+        },
+        {
+            "NumberOfTracks": 80,
+            "Test": true,
+            "TestId": 4,
+            "TestName": "Sequence4",
+            "loop": false,
+            "sequences": [
+                {
+                    "StepNumber": 25,
+                    "dir": "IN",
+                    "high": 100,
+                    "low": 100,
+                    "motorOn": true
+                },
+                {
+                    "StepNumber": 24,
+                    "dir": "IN",
+                    "high": 8,
+                    "low": 10,
+                    "motorOn": false
+                }
+            ]
+        }
+    ]
+}

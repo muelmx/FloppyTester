@@ -1,0 +1,50 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+.vscode/c_cpp_properties.json
+.vscode/arduino.json
+.vscode/launch.json
+.DS_Store
+.vscode/settings.json
+_Test/.DS_Store
+main/.vscode/arduino.json
+main/.vscode/c_cpp_properties.json
+ConsoleApp/FloppyMenu.pyc
+ConsoleApp/FloppySequences.pyc
+ConsoleApp/__pycache__/FloppySerializer.cpython-36.pyc
+ConsoleApp/__pycache__/FloppySequences.cpython-36.pyc
+ConsoleApp/__pycache__/FloppyMenu.cpython-36.pyc
+ConsoleApp/FloppySerializer.pyc
+ConsoleApp/FloppySequences.pyc
+ConsoleApp/FloppyMenu.pyc
+
+ConsoleApp/__pycache__/
