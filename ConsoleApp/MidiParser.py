@@ -59,8 +59,8 @@ class MidiParser:
         # Calculate how much steps we need
         steps = round(time / (hp + lp))
 
-        # Get TestStep Object
-        return TestStep(steps,hp,lp,Direction.AUTO, 0)
+        # Get TestStep Object, divide by compensation factor because we use ms in TestStep, not 100us
+        return TestStep(steps,hp/TestStep.arduinoTimerCompensation,lp/TestStep.arduinoTimerCompensation,Direction.AUTO, 0)
 
     def parse(self, channel = 0,numberOfTracks=40):
         tones = {}

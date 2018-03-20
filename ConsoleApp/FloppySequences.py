@@ -6,6 +6,7 @@ class Direction(Enum):
     OUT = 2
 
 class TestStep:
+    arduinoTimerCompensation = 10 # the arduino software uses 1/10 ms instead of 1/1 ms, the factor compensates this
     def __init__(self, steps, high,low,direction,motoron):
         self.numberSteps =steps
         self.durationHigh =high
@@ -42,9 +43,9 @@ class TestStep:
 
     def GetCommand(self, instant = False):
         if not instant:
-            return "+2,{0},{1},{2},{3},{4};".format(self.numberSteps,int(round(self.durationHigh)),int(round(self.durationlow)),self.direction.value,int(self.motorOn == True))
+            return "+2,{0},{1},{2},{3},{4};".format(self.numberSteps,int(round(self.durationHigh * TestStep.arduinoTimerCompensation)),int(round(self.durationlow * TestStep.arduinoTimerCompensation)),self.direction.value,int(self.motorOn == True))
         else:
-            return "+7,{0},{1},{2},{3};".format(self.numberSteps,int(round(self.durationHigh)),int(round(self.durationlow)),self.numberSteps)
+            return "+7,{0},{1},{2},{3};".format(self.numberSteps,int(round(self.durationHigh * TestStep.arduinoTimerCompensation)),int(round(self.durationlow * TestStep.arduinoTimerCompensation)),self.numberSteps)
         
 class FloppySequences:
     def __init__(self, id, name,loop,test,numberOfTracks, instant = False):
