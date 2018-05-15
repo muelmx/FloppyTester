@@ -178,12 +178,17 @@ The necessary `TimerOne` and `IRremote` packages can be found and installed thro
 
 ### IDE / Floppy Cable Connections
 
-|   | 1 | 2 | 3 | 4 |   5   | 6 | 7 |  8  |  9  |       10      |       11      | 12 |  13 | 14 | 15 | 16 |  17 |
-|:-:|:-:|:-:|:-:|:-:|:-----:|:-:|:-:|:---:|:---:|:-------------:|:-------------:|:--:|:---:|:--:|:--:|:--:|:---:|
-| A |   |   |   |   | TRK00 |   |   | STP | DIR |               | Bridge to B10 |    | MON |    |    |    |     |
-| B |   |   |   |   |       |   |   |     |     | Bridge to A11 |               |    |     |    |    |    | GND |
+| 34 | 32 | 30 | 28 |   26  | 24 | 22 |  20 |  18 |      16      |      14      | 12 |  10 | 8 | 6 | 4 |  2  |
+|:--:|:--:|:--:|:--:|:-----:|:--:|:--:|:---:|:---:|:------------:|:------------:|:--:|:---:|:-:|:-:|:-:|:---:|
+|    |    |    |    | TRK00 |    |    | STP | DIR |              | Bridge to 15 |    | MON |   |   |   |     |
+| 33 | 31 | 29 | 27 |   25  | 23 | 21 |  19 |  17 |      15      |      13      | 11 |  9  | 7 | 5 | 3 |  1  |
+|    |    |    |    |       |    |    |     |     | Bridge to 14 |              |    |     |   |   |   | GND |
 
 Where row *B* is on the side of the notches. The whole row *B* is connected to ground internally.
+
+![Wiring diagram1](https://user-images.githubusercontent.com/19271533/40067831-60faf05a-5867-11e8-8a41-c66a6e115dc6.jpg)
+
+![Wiring diagram2](https://user-images.githubusercontent.com/19271533/40067832-61157934-5867-11e8-97c3-bce709fa34ce.jpg)
 
 ## Console App  
 The Console Application is a Python tool interfacing the functionality of the Arduino code. It allows you to create (test) sequences and send them to the Arduino. These sequences can be saved locally in a `.json` file. The Console Application is also able to parse midi files into sequences, allowing you to play music with your floppy drive.
