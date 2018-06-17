@@ -63,16 +63,6 @@ Sequence *MemoryManager::AllocateSequence(unsigned int length)
         return NULL;
     }
 
-    // Create Meta Object and assign default values
-    auto sequence = new Sequence();
-    sequence->id = 0;
-    sequence->tracks = 40; //We use 40 tracks by default just to be safe
-    sequence->loop = false;
-    sequence->test = false;
-    sequence->length = length;
-    sequence->data = SequenceData;
-    sequence->actual_length = 0;
-
     SequenceDatum **SequenceData = (SequenceDatum **)malloc(length * sizeof(SequenceDatum *));
 
     if (SequenceData == NULL)
@@ -86,6 +76,16 @@ Sequence *MemoryManager::AllocateSequence(unsigned int length)
     {
         SequenceData[i] = new SequenceDatum();
     }
+
+    // Create Meta Object and assign default values
+    auto sequence = new Sequence();
+    sequence->id = 0;
+    sequence->tracks = 40; //We use 40 tracks by default just to be safe
+    sequence->loop = false;
+    sequence->test = false;
+    sequence->length = length;
+    sequence->data = SequenceData;
+    sequence->actual_length = 0;
 
     //Print some debug info
     Serial.print(F("Successfully allocated memory "));

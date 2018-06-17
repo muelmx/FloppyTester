@@ -2,7 +2,7 @@
 #include <Arduino.h>
 #include "structs/Sequence.h"
 #include "structs/ErrorReport.h"
-#include "EEPromAnything.h"
+#include "EEPROMAnything.h"
 #include "MemoryFree.h"
 
 #define NUM_SEQUENCES 4

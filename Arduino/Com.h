@@ -4,7 +4,6 @@
 #include "./structs/Sequence.h"
 #include "./MemoryManager.h"
 #include "./MemoryFree.h"
-#include "./Config.h"
 
 #define BUFFERSIZE 64
 
